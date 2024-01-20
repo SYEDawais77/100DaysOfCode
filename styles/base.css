@@ -1,5 +1,23 @@
 body {
-    text-align: center;
-    background-color: bisque;
-    margin: 50px ;
-  }
+  text-align: center;
+  background-color: bisque;
+  margin: 50px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(150, 10, 10);
+}
+
+h1 {
+  font-family: sans-serif;
+  color: blue;
+}

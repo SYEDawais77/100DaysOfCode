@@ -1,46 +1,33 @@
-  h1 {
-    font-family: sans-serif;
-    color: blue;
-  }
+h1 {
+  font-size: 48px;
+}
 
-  p {
-    font-family: "Roboto", sans-serif;
-    color: rgb(229, 14, 14);
-  }
-  
-  a {
-    color: blue;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  #todays-challenge {
-    color: brown;
-    font-weight: bold;
-    font-size: 52px;
-  }
-  #linked-paragraph {
-    color: rgb(0, 14, 14);
-  }
-  
-  #trophy-image {
-    height: 200px;
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
-  }
-  
-  #trophy-image:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-  }
-  
+li {
+  margin: 20px;
+  list-style: none;
+  background-color: rgb(22, 90, 8);
+  color: rgb(234, 234, 234);
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0);
+  display: inline-block;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+  color: rgb(229, 14, 14);
+  text-decoration: none;
+}
+
+#paragraph-description {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.challenge-class {
+  color: rgb(234, 234, 234);
+}
